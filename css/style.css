@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: chocolate;
+    text-decoration: darkred;
+    text-align: center;
+}
+
+nav{
+   background-color: darkorange;
+   text-align: center;
+}
+
+footer{
+    text-align: center;
+}
