@@ -7,8 +7,24 @@ h1{
     color: chocolate;
     text-decoration: darkred;
     text-align: center;
+    margin-bottom: 50px;
 }
 
+h2 {
+    color: ghostwhite;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.image{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+img{
+    width: 200px;
+    
+}
 nav{
    background-color: darkorange;
    text-align: center;
