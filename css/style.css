@@ -4,10 +4,13 @@ body{
 }
 
 h1{
-    color: chocolate;
+    color: black;
     text-decoration: darkred;
-    text-align: center;
+    text-align: right;
     margin-bottom: 50px;
+    font-size: 50px;
+    padding: 20px 20px 20px 0px;
+
 }
 
 h2 {
@@ -16,21 +19,38 @@ h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .image{
-    margin-bottom: 15px;
-    margin-top: 15px;
+margin: 15px 0px 15px 0px;
 }
 img{
-    width: 200px;
-    
+    width: 200px;  
 }
+
 nav{
    background-color: darkorange;
-   text-align: center;
+   font-family: cursive;
+padding: 0px 300px 0px 350px;
+
 }
+li{
+    display: inline-block;
+    padding: 10px 75px 10px 30px;
+}
+
 
 footer{
     text-align: center;
     color: dimgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.edupara{
+    text-align: center;
+}
+.exppara{
+    text-align: center;
+}
+footer{
+    padding: 20px 0px 0px 0px;
 }
