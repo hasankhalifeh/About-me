@@ -5,6 +5,7 @@ var userName = prompt('What is your name?');
 
 alert('Welcome to the website ' + userName);
 
+function cars() {
 var question1 = prompt('Do I like cars?').toLowerCase();
 
 if (question1 == 'yes' || question1 == 'y' || question1 == 'Y') {
@@ -15,8 +16,10 @@ if (question1 == 'yes' || question1 == 'y' || question1 == 'Y') {
     alert('You are wrong!');
 
 }
+} 
+cars();
 
-
+function sports() {
 var question2 = prompt('Do I like sports?').toLowerCase();
 
 if (question2 == 'yes' || question2 == 'y' || question2 == 'Y') {
@@ -27,19 +30,24 @@ if (question2 == 'yes' || question2 == 'y' || question2 == 'Y') {
     alert('You are wrong!');
 
 }
+}
+sports();
 
-
+function swimming(){
 var question3 = prompt('Do I like swimming?').toLowerCase();
 
 if (question3 == 'yes' || question3 == 'y' || question3 == 'Y') {
     alert('You are wrong!');
 
     counter++;
-} else if (question3 == 'no' || question3 == 'n' || question1 == 'N') {
+} else if (question3 == 'no' || question3 == 'n' || question3 == 'N') {
     alert('You are correct!');
 
 }
+}
+swimming();
 
+function animals() {
 var question4 = prompt('Do I like animals?').toLowerCase();
 
 if (question4 == 'yes' || question4 == 'y' || question4 == 'Y') {
@@ -50,7 +58,10 @@ if (question4 == 'yes' || question4 == 'y' || question4 == 'Y') {
     alert('You are wrong!');
 
 }
+}
+animals();
 
+function studying() {
 var question5 = prompt('Do I like studying?').toLowerCase();
 
 if (question5 == 'yes' || question5 == 'y' || question5 == 'Y') {
@@ -61,8 +72,11 @@ if (question5 == 'yes' || question5 == 'y' || question5 == 'Y') {
     alert('You are correct!');
 
 }
+}
+studying();
 
 
+function number() {
 for (var i = 0; i < 5; i++) {
     var question6 = prompt('Guess a number between 1 and 10');
 
@@ -79,7 +93,10 @@ for (var i = 0; i < 5; i++) {
 
     }
 }
+}
+number();
 
+function city () {
 var rightanswer = ['ottawa', 'montreal', 'brussels', 'punta cana', 'cape town']
 
 for (var k = 1; k <= 6; k++) {
@@ -95,7 +112,8 @@ for (var k = 1; k <= 6; k++) {
         }
     }
 }
-
+}
+city();
 
 alert('My favoirte cities are Ottawa, Brussels, Punta Cana, Cape Town , Montreal')
 alert('You have scored ' + counter);
